@@ -1,7 +1,13 @@
-## Put comments here that give an overall description of what your
-## functions do
+## This program is modified from given example which is 
+## "Caching the Mean of a Vector"
+## The first function, makeCacheMatrix creates a special "matrix",
+## which is really a list containing a function to
+## 1. sets the matrix
+## 2. gets the matrix
+## 3. sets the matrix for solve
+## 4. gets the inverse matrix
 
-## Write a short comment describing this function
+## This function creates a special "matrix" object
 
 makeCacheMatrix <- function(x = matrix()) {
         ##  This function creates a special "matrix" object 
@@ -20,7 +26,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Return a matrix that is the inverse of 'x'
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
