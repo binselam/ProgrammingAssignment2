@@ -1,7 +1,7 @@
-## This program is modified from given example which is 
-## "Caching the Mean of a Vector"
-## The first function, makeCacheMatrix creates a special "matrix",
-## which is really a list containing a function to
+## This R script was modified from given example which is 
+## "Caching the Mean of a Vector".
+## "makeCacheMatrix" creates a "matrix".
+## Following operations are performed:
 ## 1. sets the matrix
 ## 2. gets the matrix
 ## 3. sets the matrix for solve
